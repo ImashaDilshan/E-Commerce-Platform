@@ -48,3 +48,15 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+.signup_btn{
+  background-color: #7dec7d;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+}

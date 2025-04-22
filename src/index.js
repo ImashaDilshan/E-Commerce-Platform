@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Students from './Students';    
+import Student from './StudentForm';   
 
 
 
@@ -14,7 +14,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/Students" element={<Students />} />
+      <Route path="/Student" element={<Student />} />
     </Routes>
   </BrowserRouter>
 );
